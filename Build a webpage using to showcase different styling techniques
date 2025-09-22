@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styling Techniques Showcase</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Styling Techniques Showcase</h1>
+        <p>Explore various CSS techniques in one place!</p>
+    </header>
+
+    <section class="typography">
+        <h2>Typography Techniques</h2>
+        <p class="custom-font">This text uses a custom font family (Google Fonts).</p>
+        <p class="shadow-text">This text has a subtle text shadow effect.</p>
+    </section>
+
+    <section class="layout">
+        <h2>Layout Techniques</h2>
+        <div class="grid-container">
+            <div class="grid-item">Grid Item 1</div>
+            <div class="grid-item">Grid Item 2</div>
+            <div class="grid-item">Grid Item 3</div>
+        </div>
+        <div class="flex-container">
+            <div class="flex-item">Flex Item 1</div>
+            <div class="flex-item">Flex Item 2</div>
+            <div class="flex-item">Flex Item 3</div>
+        </div>
+    </section>
+
+    <section class="backgrounds">
+        <h2>Background Techniques</h2>
+        <div class="gradient-background">
+            <p>This section has a gradient background!</p>
+        </div>
+        <div class="fixed-background">
+            <p>This section has a fixed background image!</p>
+        </div>
+    </section>
+
+    <section class="buttons">
+        <h2>Button Styling</h2>
+        <button class="btn-basic">Basic Button</button>
+        <button class="btn-hover">Hover Effect Button</button>
+    </section>
+
+    <section class="animations">
+        <h2>Animations</h2>
+        <div class="fade-in-box">
+            <p>This box fades in!</p>
+        </div>
+    </section>
+</body>
+</html>
